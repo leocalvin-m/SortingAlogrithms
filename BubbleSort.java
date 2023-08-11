@@ -1,8 +1,7 @@
-import java.util.Arrays;
 
 class BubbleSort{
     
-    public static void bubbleSortAlgorithm(int[] arr){
+    public void bubbleSortAlgorithm(int[] arr){
         boolean isSwapped = false;
         if(arr.length <= 1){
             return;
@@ -25,7 +24,7 @@ class BubbleSort{
     }
 
 
-    private static void swap(int[] arr, int i, int j) {
+    private void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
