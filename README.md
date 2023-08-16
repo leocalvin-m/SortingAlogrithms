@@ -1,4 +1,1 @@
 # SortingAlogrithms
-
-### Bubble Sort
-
